@@ -1,0 +1,7 @@
+.jumbotron{
+  background-image: url("../img/pattern.png");
+  background-size: auto;
+}
+.jumbotron p, h1 {
+  color: white;
+}
