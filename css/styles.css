@@ -1,7 +1,38 @@
-.jumbotron{
-  background-image: url("../img/pattern.png");
+* {
+  box-sizing: border-box;
+}
+
+/* main page */
+.jumbotron {
+  background-image: url("../img/background.jpg");
   background-size: auto;
 }
+
 .jumbotron p, h1 {
   color: white;
+}
+
+/* about styles */
+.container {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.column {
+  float: left;
+  width: 32%;
+  padding: 18px;
+}
+
+.intro {
+  padding: 20px 0;
+}
+
+.skills {
+  padding: 20px 48px;
+}
+
+.main-text {
+  padding-top: 60px;
+  clear: both;
 }
