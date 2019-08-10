@@ -6,16 +6,32 @@ body {
   background-color: #bfbfbf;
   color: #333333;
 }
-
-/* main page */
-.jumbotron {
+.left { float: left;
+  padding-top: 28px;
+ }
+.right { float: right; }
+/* nav */
+.nav-bar {
+  width: 100% !important;
   background-image: url("../img/background.jpg");
   background-size: auto;
+  padding: 2% 5% 5%;
+  position: fixed;
 }
 
-.jumbotron p, h1 {
+nav a {
   color: white;
+  font-size: 130%;
 }
+
+nav a:hover {
+  color: black;
+  text-decoration: none;
+  transition: color 600ms;
+  -webkit-transition: color 600ms;
+}
+
+/* main page */
 
 
 /* about styles */
@@ -50,13 +66,15 @@ body {
 /* end about */
 /* typeography */
 
-.header h1 {
+.left h1 {
   font-family: 'Merienda', cursive;
   font-weight: bold;
   font-size: 3em;
+  color: white;
 }
-.header p {
+.left p {
   font-family: 'Merienda', cursive;
+  color: white;
 }
 
 .intro p {
@@ -76,4 +94,15 @@ li{
 .skills h3 {
   text-align: center;
   text-transform: uppercase;
+}
+a{
+  color: white;
+  font-size: 130%;
+}
+
+a:hover {
+  color: black;
+  text-decoration: none;
+  transition: color 600ms;
+  -webkit-transition: color 600ms;
 }
