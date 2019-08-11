@@ -6,17 +6,23 @@ body {
   background-color: #bfbfbf;
   color: #333333;
 }
-.left { float: left;
+
+.left {
+  float: left;
   padding-top: 28px;
- }
-.right { float: right; }
+}
+
+.right {
+  float: right;
+}
+
 /* nav */
 .nav-bar {
   width: 100% !important;
   background-image: url("../img/background.jpg");
   background-size: auto;
   padding: 2% 5% 5%;
-  position: fixed;
+  height: 182px;
 }
 
 nav a {
@@ -32,8 +38,6 @@ nav a:hover {
 }
 
 /* main page */
-
-
 /* about styles */
 .container {
   margin: 0 auto;
@@ -65,13 +69,13 @@ nav a:hover {
 
 /* end about */
 /* typeography */
-
 .left h1 {
   font-family: 'Merienda', cursive;
   font-weight: bold;
   font-size: 3em;
   color: white;
 }
+
 .left p {
   font-family: 'Merienda', cursive;
   color: white;
@@ -82,22 +86,28 @@ nav a:hover {
   font-weight: 100%;
   -webkit-margin-before: 0;
 }
-h2{
-    font-family: 'Merienda', cursive;
+
+h2 {
+  font-family: 'Merienda', cursive;
 }
-p{
+
+p {
   font-family: 'Domine', serif;
 }
-li{
+
+li {
   font-family: 'Domine', serif;
 }
+
 .skills h3 {
   text-align: center;
   text-transform: uppercase;
 }
-a{
+
+a {
   color: white;
   font-size: 130%;
+  padding: 5px;
 }
 
 a:hover {
