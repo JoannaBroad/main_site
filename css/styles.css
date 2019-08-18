@@ -40,20 +40,23 @@ nav a:hover {
 /* main page */
 /* about styles */
 .container {
-  margin: 0 auto;
+  margin: 10px auto;
   width: 80%;
 }
 
 .column {
-  float: left;
-  width: 32%;
-  padding: 18px;
+  display: flex;
+  flex-direction: row;
 }
 
 .intro {
   padding: 20px 0;
+  text-align: center;
+  margin-top: 95px;
 }
-
+.skill{
+  text-align: center;
+}
 .skills {
   padding: 20px 48px;
 }
@@ -61,12 +64,13 @@ nav a:hover {
 .main-text {
   padding-top: 60px;
   clear: both;
+  margin: 0 63px;
 }
 
-#skill-list {
-  margin-left: 50px;
+.img-of-me{
+  border-radius: 17px;
+  margin-left: 16px;
 }
-
 /* end about */
 /* typeography */
 .left h1 {
